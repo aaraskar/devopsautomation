@@ -14,17 +14,14 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.qa.pages.HomePage;
-import com.qa.pages.LoginPage;
-import com.qa.testbase.TestBase;
+
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class DevopsTest extends TestBase {
-	public static LoginPage loginPage;
-	public static HomePage homePage;
+public class DevopsTest  {
+	
 	Logger log=Logger.getLogger(DevopsTest.class);
 	public static ExtentReports extentReports;
 	public static ExtentTest extentTest;
