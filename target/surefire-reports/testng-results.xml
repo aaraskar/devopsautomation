@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium Automation Framework" duration-ms="3266" started-at="2021-05-17T08:25:49Z" finished-at="2021-05-17T08:25:52Z">
+    <groups>
+    </groups>
+    <test name="Different Selenium  featutres" duration-ms="3266" started-at="2021-05-17T08:25:49Z" finished-at="2021-05-17T08:25:52Z">
+      <class name="com.qa.tests.DevopsTest">
+        <test-method status="PASS" signature="test1()[pri:1, instance:com.qa.tests.DevopsTest@77caeb3e]" name="test1" duration-ms="3248" started-at="2021-05-17T08:25:49Z" finished-at="2021-05-17T08:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:2, instance:com.qa.tests.DevopsTest@77caeb3e]" name="test2" duration-ms="2" started-at="2021-05-17T08:25:52Z" finished-at="2021-05-17T08:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.qa.tests.DevopsTest -->
+    </test> <!-- Different Selenium  featutres -->
+  </suite> <!-- Selenium Automation Framework -->
+</testng-results>

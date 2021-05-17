@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="Selenium Automation Framework" parallel="methods" thread-count="2"> -->
+<suite name="Selenium Automation Framework" parallel="methods" thread-count="2" verbose="1">
+	<!-- <listeners>
+		
+		<listener class-name="com.qa.utils.RetryAnalyzer" />
+	</listeners> -->
+	
+
+	<test name="Different Selenium  featutres">
+		
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://login.yahoo.com/" />
+		<parameter name="emailID" value="test@yahoo.com" />
+		<parameter name="freeCRMurl" value="https://ui.freecrm.com/" />
+		<parameter name="username" value="ajit.enjoy@gmail.com" />
+		<parameter name="password" value="97Malibu!@#" />
+		<parameter name="fname" value="Rahul" />
+		<parameter name="lname" value="Raskar" />
+		<parameter name="midname" value="Amit" />
+		
+		
+
+
+		<classes>
+
+			<class name="com.qa.tests.DevopsTest" />
+			<!-- <class name="com.qa.tests.HomePageTest"/> <class name="com.qa.tests.ContactPageTest"/> -->
+			<!-- <class name="com.test.RetryLogicRuntime"/> <class name="com.parameters.ParameterTest" 
+				/> <class name="com.test.GoogleTest" /> <class name="com.test.GoogleTitleTest" 
+				/> <class name="com.test.InvocationCount" /> <class name="com.test.InvocationTimeout" 
+				/> <class name="com.test.TestNgBasics" /> <class name="com.test.TestNGFeatures" 
+				/> -->
+		</classes>
+		
+		
+	</test>
+</suite>

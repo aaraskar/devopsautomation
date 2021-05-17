@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Selenium Automation Framework]" parallel="methods">
+  <test thread-count="2" name="Different Selenium  featutres(failed)" parallel="methods">
+    <parameter name="fname" value="Rahul"/>
+    <parameter name="password" value="97Malibu!@#"/>
+    <parameter name="lname" value="Raskar"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="freeCRMurl" value="https://ui.freecrm.com/"/>
+    <parameter name="emailID" value="test@yahoo.com"/>
+    <parameter name="midname" value="Amit"/>
+    <parameter name="url" value="https://login.yahoo.com/"/>
+    <parameter name="username" value="ajit.enjoy@gmail.com"/>
+    <classes>
+      <class name="com.qa.tests.LoginPageTest">
+        <methods>
+          <include name="afterMethodConfig"/>
+          <include name="validateLoginToCRM"/>
+          <include name="beforeTestConfig"/>
+          <include name="test1"/>
+          <include name="afterTestConfig"/>
+          <include name="beforeMethodConfig"/>
+          <include name="test3"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Different Selenium  featutres(failed) -->
+</suite> <!-- Failed suite [Selenium Automation Framework] -->
